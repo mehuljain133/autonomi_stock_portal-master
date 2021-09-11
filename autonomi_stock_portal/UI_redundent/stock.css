@@ -1,0 +1,120 @@
+.navbar {
+    margin-bottom: 0;
+    border-color: transparent;
+    border-radius: 0;
+}
+
+footer{
+    position: absolute;
+    height:100px;
+    width:100%;
+    background:#222; 
+    bottom: 0;
+    text-align: center;
+    color: #9d9d9d;
+    z-index: 2;
+    
+
+
+}
+header {
+    padding: 20px;
+    background: #222;
+}
+html ,body{
+    min-height: 100%;
+    
+}
+body{
+    margin-bottom: 50px;
+    
+}
+html{
+    position: relative;
+}
+#top-nav{
+    padding-left: 45px;
+    background:#222; 
+}
+.navbar-nav>li>a {
+}
+.loog{
+    margin: 20px;
+
+}
+.btn-success{
+    background-color: #222;
+    border-color: #222;
+
+}
+.btn{
+    padding: 12px 12px;
+}
+.btn:hover{
+    background:#222;
+}
+.btn-info{
+    background-color: #222;
+    border-color: #222;
+}
+
+
+/* Sidebar */
+#sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 70e%;
+    overflow-y: hidden;
+    background: #2C3E50;
+    opacity: 0.9;
+}
+
+/* Always take up entire screen */
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+
+/* Change with of sidebar from 0 to 250px */
+#wrapper.menuDisplayed #sidebar-wrapper {
+    width: 250px;
+}
+
+/* Since we added left padding, we need to shrink the width by 250px */
+#wrapper.menuDisplayed #page-content-wrapper {
+    padding-left: 250px;
+}
+
+
+/* Sidebar styling - the entire ul list */
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.sidebar-nav li a:hover {
+    background: #222;
+}
+
+.centered-form{
+    margin-top: 60px;
+}
+
+.centered-form .panel{
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
